@@ -141,13 +141,17 @@
 .gallery-item {
     width: 33.33333%;
     height: 250px;
-  
-    
 }
 
 @media (max-width: 1024px) {
     .gallery-item{
         width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery-item{
+        width: 100%;
     }
 }
 
@@ -157,13 +161,14 @@
 
 .gallery-item p{
     
-   
+   font-size: 2em;
 }
 
 .gallery-item span{
     color: lightpink; 
    position: relative;
-    bottom: 50px;
+    bottom: 60px;
+    left: 10px;
 
    
 }
