@@ -4,6 +4,13 @@
     margin:0;
 }
 
+h1{
+    color: lightpink;
+}
+
+h2{
+    color: lightpink;
+}
 .nav ul{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,7 +84,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     height: 3rem;
-     background-color: #FCFAFA;
+    background-color: #FCFAFA;
     
     
 }
@@ -86,7 +93,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: calc(50vh);
+    height: calc(30vh);
     background-color: #FCFAFA;
 }
 
@@ -114,12 +121,10 @@
   
 }
 
-.services h2{
-    padding-top: 20px;
-  text-align: center;
-
-    
-    color: lightpink;   
+.services-section h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; 
 }
 
 
@@ -131,7 +136,7 @@
     
   display: flex;
     
-    
+
  -ms-flex-wrap: wrap;
     
     
@@ -190,12 +195,55 @@
 
 
 .services-section h1{
-    color: lightpink;
+    
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 
+.about-section h2{
+    padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.about-section p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact-section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.contact-section h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
+form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+footer h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
