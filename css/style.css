@@ -272,11 +272,14 @@ form input, textarea{
     width: 100%;
         box-sizing: border-box;
     padding: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;  
 }
 
 
 textarea{
     height:10em;
+    max-width: 100%;
 }
 
 form input, textarea:focus{
@@ -301,6 +304,10 @@ form input, textarea:focus{
 }
 
 
+input:focus ,textarea:focus {
+    border: 3px solid hotpink;
+}
+
 label{
     display: block;
     margin-bottom: 20px;
@@ -322,6 +329,8 @@ label span{
     box-sizing: border-box;
     
 }
+
+
 
 .contact-info label:nth-child(1){
     padding-right: 5px;
